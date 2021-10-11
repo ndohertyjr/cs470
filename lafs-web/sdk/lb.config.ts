@@ -21,14 +21,14 @@
 **/
 export class LoopBackConfig {
   private static path: string = '//0.0.0.0:3000';
-  private static version: string | number = 'api';
+  private static version: string | number = 'API';
   private static authPrefix: string = '';
   private static debug: boolean = true;
   private static filterOn: string = 'headers';
   private static secure: boolean = false;
   private static withCredentials: boolean = false;
 
-  public static setApiVersion(version: string = 'api'): void {
+  public static setApiVersion(version: string = 'API'): void {
     LoopBackConfig.version = version;
   }
   
